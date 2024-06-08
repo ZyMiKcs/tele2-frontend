@@ -1,8 +1,26 @@
-# React + Vite
+# Список продуктов приложение
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Задание
 
-Currently, two official plugins are available:
+Используя API [dummyjson.com](https://dummyjson.com/docs/products), разработать и покрыть тестами:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   Пагинацию по списку продуктов
+-   Поиск по названию продукта
+
+При реализации нужно использовать JS, React 18, RTL. Наличие тестов критично. Количество и характер тестов, использование любых других библиотек - на усмотрение кандидата.
+
+## О приложении
+
+Это React-приложение позволяет пользователям просматривать список продуктов с возможностью пагинации и поиска по названию. Оно разработано с использованием современного стек технологий, таких как React 18 и Tailwind CSS, и покрыто тестами с использованием React Testing Library (RTL).
+
+### Основные возможности
+
+1. **Пагинация** - пользователи могут переходить между страницами списка продуктов, чтобы просматривать больше продуктов.
+2. **Поиск по названию** - пользователи могут искать продукты по названию, используя строку поиска.
+
+### Технологический стэк
+
+-   **React 18**
+-   **Tailwind CSS**
+-   **Fetch API**
+-   **React Testing Library (RTL)**
