@@ -1,8 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { fetchProducts } from '../services/api';
-import ListItem from './ListItem';
-import { debounce } from '../utils/debounce';
-import Spinner from './Spinner';
+import { useCallback, useEffect, useState } from 'react';
+import { fetchProducts } from '../../services/api';
+import ListItem from '../ListItem/ListItem';
+import { debounce } from '../../utils/debounce';
+import Spinner from '../Spinner';
 
 export default function List() {
     const [products, setProducts] = useState([]);

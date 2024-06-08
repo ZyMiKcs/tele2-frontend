@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function ListItem({ product }) {
     return (
         <div className="p-4 border rounded-md shadow-sm">
